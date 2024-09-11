@@ -24,8 +24,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-df = pd.read_csv(r"C:\My Folder\Tuts\Python\Project\Project 5 - Final Project\Zomato ViZ assignment\Zomato ViZ assignment\Zomato_Data_Analysis.csv")
-df_owndata = pd.read_csv(r"C:\My Folder\Tuts\Python\Project\Project 5 - Final Project\Zomato ViZ assignment\Zomato ViZ assignment\Own_data.csv")
+df = pd.read_csv("Zomato_Data_Analysis.csv")
+df_owndata = pd.read_csv("Own_data.csv")
 
 def load_lottie_url(url: str):
     r = requests.get(url)
